@@ -1,0 +1,10 @@
+curl 'http://192.168.2.45:3003/api/v1/referral?page_size=50&referral_date_start=2023-04-01T00:00:00.000000&referral_date_end=2023-04-07T23:59:59.999999&filters=new,work' \
+  -H 'Accept: application/json, text/plain, */*' \
+  -H 'Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7' \
+  -H 'Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6Ijc0NjVmNmE3LTM3NmYtNDUxZi1hYjZjLTE3YTgxMTU3NjkyZCIsImV4cCI6MTY4MzQ0NDExOSwiaXNfc3RhZmYiOnRydWUsImxwdV9pZCI6IjQ3ZjQyMGNlLTVhNTktNGZkOS1iMzExLWM0ZmIxMTFjN2VhZCIsImRvY3Rvcl9pZCI6Ijg2NGE0YjEyLWQxMjQtNGY2Ni05OTNhLTRiZDI5ZjMzMjUzMyIsImRlcGFydG1lbnQiOiJcdTA0MWFcdTA0M2JcdTA0MzhcdTA0M2RcdTA0MzhcdTA0M2FcdTA0M2UtXHUwNDM0XHUwNDM4XHUwNDMwXHUwNDMzXHUwNDNkXHUwNDNlXHUwNDQxXHUwNDQyXHUwNDM4XHUwNDQ3XHUwNDM1XHUwNDQxXHUwNDNhXHUwNDMwXHUwNDRmIFx1MDQzYlx1MDQzMFx1MDQzMVx1MDQzZVx1MDQ0MFx1MDQzMFx1MDQ0Mlx1MDQzZVx1MDQ0MFx1MDQzOFx1MDQ0ZiIsImZybXJfcG9zdCI6Ilx1MDQzMlx1MDQ0MFx1MDQzMFx1MDQ0Ny1cdTA0MzFcdTA0MzBcdTA0M2FcdTA0NDJcdTA0MzVcdTA0NDBcdTA0MzhcdTA0M2VcdTA0M2JcdTA0M2VcdTA0MzMiLCJzcGVjaWFsaXR5IjoiXHUwNDI0XHUwNDMwXHUwNDQwXHUwNDNjXHUwNDMwXHUwNDQ2XHUwNDM4XHUwNDRmIn0.KuNyiBhZhst-n-dA7OH_H_ZwatNOOR0kTJWBoeRq_W8' \
+  -H 'Connection: keep-alive' \
+  -H 'Origin: http://localhost:3003' \
+  -H 'Referer: http://localhost:3003/' \
+  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36' \
+  --compressed \
+  --insecure
