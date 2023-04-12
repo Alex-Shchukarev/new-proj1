@@ -1,1 +1,1 @@
-curl 'http://192.168.2.45:3003/api/v1/referral
+curl 'http://192.168.2.45:3003/api/v1/referra
